@@ -1,0 +1,209 @@
+<html nighteye="disabled">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Hoyoverse Cute Creature Online Zoo" />
+    <meta name="author" content="Zhafirah Rizqy Nur" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HoHoland Online Zoo</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="icon"
+      href="https://static.wikia.nocookie.net/gensin-impact/images/0/00/Aranara_Emblem.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <span class="mobile">
+        <img
+          src="https://static.wikia.nocookie.net/gensin-impact/images/0/00/Aranara_Emblem.png"
+          alt="Hamburger Icon"
+        />
+      </span>
+      <span class="relative-container">
+        <img
+        src="https://static.wikia.nocookie.net/gensin-impact/images/8/8e/NPC_Ararycan.png"
+        alt="HoHoland Online Zoo Mascot, Aranara"
+        />
+        <b>HoHoland Online Zoo</b>
+      </span>
+
+      <ul class="desktop">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Call Us</a></li>
+      </ul>
+      <span id="dark-mode-switch">
+        <p>Dark Mode</p>
+        <label class="switch">
+          <input id="checkbox-dark-mode" onchange="toggleDarkMode()" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </span>
+    </nav>
+    <header class="full-screen" id="header">
+      <h1>HoHoland Online Zoo</h1>
+      <p>Welcome to HoHoland Online Zoo</p>
+      <p>This is the way to appreciate Hoyoverse Cute Creature</p>
+    </header>
+    <main>
+        <section id="penguin-photos">
+            <h2>Hall of Fame</h2>
+            <div class="grid-container">
+              <div id="item-1">
+                <img
+                  src="https://media.tenor.com/hpDR7T63mdsAAAAd/aranara.gif"
+                  alt="Dancing Aranara"
+                />
+              </div>
+              <div id="item-2">
+                <img
+                src="images/Melusine.webp"
+                alt="Melusine is Strolling around Fontaine"
+                />
+              </div>
+              <div id="item-3">
+                <img
+                src="https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Enemy_Warp_Trotter.png"
+                alt="Ica si Trotter Unyu"
+                />
+              </div>
+              <div id="item-4">
+                <img
+                  src="https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Icon_Emoji_Paimon%27s_Paintings_06_Azhdaha_2.png"
+                  alt="Azdhaha, our beeg and chonky Dragon"
+                />
+              </div>
+              <div id="item-5">
+                <img
+                  src="images/Wildlife_Leisurely_Otter_Archive.webp"
+                  alt="Otter, our Cutie Patootie"
+                />
+              </div>
+            </div>
+          </section>
+      <section id="penguin-facts">
+        <h2>Did you know that...</h2>
+        <div class="flex-container">
+          <ul>
+            <li>Aranara can Fly, Because in their head there is a propeller</li>
+            <li>Aranara can cook</li>
+            <li>Aranara can 1v1 you if you disrespect them</li>
+            <li>Last but not least, Aranara is the cutest and bravest creature in Teyvat~</li>
+          </ul>
+          <figure>
+            <img
+              src="images/World_Quest_Cooking_the_Flavor_of_Nature.webp"
+              alt="Cooking Aranara."
+            />
+            <figcaption>Aranara <em>cooks</em> in the forest.</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="section-video">
+        <h2>Chilling with our Mascot</h2>
+        <div class="flex-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TMTRBvM4H14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>Become Our Starter Member</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Biography:</legend>
+            <div>
+              <label for="fullName">Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+              <p>Are you living in Earth/Teyvat/Astral Express?</p>
+              <input type="radio" id="yes" name="isTeyvat" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isAbyss" value="Female" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>Pick your version of "Cutie Patootie"</p>
+              <input
+                id="aranara"
+                type="checkbox"
+                name="cute creatures"
+                value="aranara"
+              />
+              <label for="aranara">Aranara</label>
+              <input
+                id="melusine"
+                type="checkbox"
+                name="cute creatures"
+                value="melusine"
+              />
+              <label for="melusine">Melusine</label>
+              <input
+                id="trotter"
+                type="checkbox"
+                name="cute creatures"
+                value="trotter"
+              />
+              <label for="trotter">Ica</label>
+              <input
+                id="azdhaha"
+                type="checkbox"
+                name="cute creatures"
+                value="dragon"
+              />
+              <label for="dragon">Azdhaha</label>
+              <input
+                id="otter"
+                type="checkbox"
+                name="cute creatures"
+                value="otter"
+              />
+              <label for="otter">Otter</label>
+            </div>
+            <div>
+              <p>Give us your thoughts about our cute creatures</p>
+              <textarea rows="5"></textarea>
+            </div>
+            <div>
+              <p>Upload your favorite Cutie Patootie moment:</p>
+              <input
+                type="file"
+                id="photo"
+                name="MascotsPhoto"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script>
+      // initial state
+      if (localStorage.getItem("darkMode") === "true") {
+        document.getElementById("checkbox-dark-mode").checked = true;
+        document.body.classList.add("dark-mode");
+      }
+
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        if (!document.getElementById("checkbox-dark-mode").checked) {
+          localStorage.setItem("darkMode", false);
+        } else {
+          localStorage.setItem("darkMode", true);
+        }
+      }
+    </script>
+  </body>
