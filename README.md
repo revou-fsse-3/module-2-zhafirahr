@@ -2,7 +2,7 @@
 ## Case Study: HoHoLand Online Zoo
 HoHoLand Online Zoo is a web to appreciate all of cute creatures in Hoyoverse game~
 ## Tasks
-We will deploy it with Niagahoster 
+###### We will deploy it with Niagahoster 
 ====================================
 ### PS: Link week 3 [Link](https://hohoverse-up1.netlify.app/)
 ## Deployment
