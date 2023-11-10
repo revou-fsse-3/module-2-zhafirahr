@@ -7,7 +7,7 @@ We will deploy it with Niagahoster
 ### PS: Link week 3 [Link](https://hohoverse-up1.netlify.app/)
 ## Deployment
 1. The website was deployed using Netlify, with a custom domain from Niagahoster.
-![image]('assets/Screenshot%202023-11-10%20215042.png')
+![image](assets/Screenshot%202023-11-10%20215042.png)
 ![image](assets/Screenshot%202023-11-10%20221140.png)
 2. To ensure seamless integration between Github and Netlify, connect your Netlify account with Github, and choose to deploy from your Github repository. This ensures that Netlify will automatically initiate deployments whenever there are any changes in your GitHub repository.
 3. Cloudflare, a content delivery network (CDN), was employed to optimize the website's performance and provide enhanced security.
